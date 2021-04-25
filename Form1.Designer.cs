@@ -32,13 +32,13 @@ namespace vizeodevi
             this.label_derece = new System.Windows.Forms.Label();
             this.label_durum = new System.Windows.Forms.Label();
             this.label_yer = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.picture_bulutlu = new System.Windows.Forms.PictureBox();
+            this.picture_gunesli = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_bulutlu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_gunesli)).BeginInit();
             this.SuspendLayout();
             // 
             // label_derece
@@ -69,25 +69,25 @@ namespace vizeodevi
             this.label_yer.TabIndex = 2;
             this.label_yer.Text = "label3";
             // 
-            // pictureBox1
+            // picture_bulutlu
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::vizeodevi.Properties.Resources._700422_icon_1_cloud_512;
-            this.pictureBox1.Location = new System.Drawing.Point(513, 24);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(94, 68);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.picture_bulutlu.BackColor = System.Drawing.Color.Transparent;
+            this.picture_bulutlu.Image = global::vizeodevi.Properties.Resources._700422_icon_1_cloud_512;
+            this.picture_bulutlu.Location = new System.Drawing.Point(513, 24);
+            this.picture_bulutlu.Name = "picture_bulutlu";
+            this.picture_bulutlu.Size = new System.Drawing.Size(94, 68);
+            this.picture_bulutlu.TabIndex = 3;
+            this.picture_bulutlu.TabStop = false;
             // 
-            // pictureBox2
+            // picture_gunesli
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::vizeodevi.Properties.Resources.Sunny_icon;
-            this.pictureBox2.Location = new System.Drawing.Point(647, 24);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(88, 89);
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
+            this.picture_gunesli.BackColor = System.Drawing.Color.Transparent;
+            this.picture_gunesli.Image = global::vizeodevi.Properties.Resources.Sunny_icon;
+            this.picture_gunesli.Location = new System.Drawing.Point(647, 24);
+            this.picture_gunesli.Name = "picture_gunesli";
+            this.picture_gunesli.Size = new System.Drawing.Size(88, 89);
+            this.picture_gunesli.TabIndex = 4;
+            this.picture_gunesli.TabStop = false;
             // 
             // textBox1
             // 
@@ -124,15 +124,15 @@ namespace vizeodevi
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picture_gunesli);
+            this.Controls.Add(this.picture_bulutlu);
             this.Controls.Add(this.label_yer);
             this.Controls.Add(this.label_durum);
             this.Controls.Add(this.label_derece);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_bulutlu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_gunesli)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -143,8 +143,8 @@ namespace vizeodevi
         private System.Windows.Forms.Label label_derece;
         private System.Windows.Forms.Label label_durum;
         private System.Windows.Forms.Label label_yer;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox picture_bulutlu;
+        private System.Windows.Forms.PictureBox picture_gunesli;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
